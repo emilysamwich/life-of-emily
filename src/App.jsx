@@ -9,18 +9,21 @@ function App() {
           emilyemilyemilyemily
         </Navbar.Brand>
       </Navbar>
-        <h1>
-          Emily Sam
-        </h1>
-        <p>
-          <a href="https://www.linkedin.com/in/emilyhsam/" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-        </p>
-        <p>Second element</p>
-        <button class="btn">
-          click me
-        </button>
+
+      <div className="sphere"></div>
+      
+      <h1>
+        Emily Sam
+      </h1>
+      <p>
+        <a href="https://www.linkedin.com/in/emilyhsam/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </a>
+      </p>
+      <p>Second element</p>
+      <button className="btn">
+        click me
+      </button>
     </>
   );
 }
