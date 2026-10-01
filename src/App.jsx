@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, Row, Col, Button } from "react-bootstrap";
+import { Lamp } from "./components/Lamp.jsx";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <button className="btn">
         click me
       </button>
+
+      <Lamp/>
     </>
   );
 }
